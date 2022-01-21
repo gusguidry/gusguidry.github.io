@@ -1,0 +1,10 @@
+main {
+	margin: auto ;
+	color: var(--fg) ;
+	background: var(--bg) ;
+	border: dashed 1px var(--bordercolor) ;
+	padding: 1em ;
+	border-radius: 20px ;
+}
+
+h1 { color: lightblue ; }
