@@ -7,9 +7,9 @@ Is this a waste of time?
 
 Not at all.
 
-Will I get a $110,000 salary + benefits job with this project?
+Will I get a $200,000 salary + benefits job with this project?
 
-100% bet.
+1000%.
 
 Thanks,
 
