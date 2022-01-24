@@ -1,8 +1,3 @@
-main {
-	margin: auto ;
-	color: var(--fg) ;
-	background: var(--bg) ;
-	border: dashed 1px var(--bordercolor) ;
-	padding: 1em ;
-	border-radius: 20px ;
-}
+body {
+	font-family: Sans-Serif;
+  }
