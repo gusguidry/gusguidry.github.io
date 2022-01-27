@@ -1,7 +1,9 @@
 # gusguidry.com
 Hello,
 
-Eventually replacing my Wordpress hosted site with something experimental. Three.js looks like so much fun.
+Eventually replacing my Wordpress hosted site with something simpler. Over the years I've grown to appreciate non-bloaty websites like lukesmith.xyz or XKCD. I prefer plain HTML and CSS.
+
+I don't think I'll become a software engineer/ developer, but I believe it's handy to understand basic web development.
 
 Is this a waste of time? 
 
