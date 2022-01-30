@@ -1,7 +1,7 @@
 # gusguidry.com
 Hello,
 
-Eventually replacing my Wordpress hosted site with something simpler. Over the years I've grown to appreciate non-bloaty websites like lukesmith.xyz or XKCD. I prefer plain HTML and CSS.
+Eventually replacing my Wordpress hosted site with something simpler. Over the years I've grown to appreciate non-bloaty websites like lukesmith.xyz, Ken Rockwell, or XKCD. Plain HTML and CSS will suit me just fine.
 
 I don't think I'll become a software engineer/ developer, but I believe it's handy to understand basic web development.
 
