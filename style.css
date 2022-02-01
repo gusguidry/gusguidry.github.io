@@ -1,8 +1,10 @@
 body {
   font-family: Sans-Serif;
+  margin: 10% 5% 50% 5%;
+  max-width: 45ch;
+  font-size: 1rem;
   margin: 10% 5% 40% 5%;
 }
-
 .container {
   position: relative;
   width: 100%;
