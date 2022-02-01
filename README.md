@@ -11,7 +11,7 @@ Not at all.
 
 Will I get a $200,000 salary + benefits job with this project?
 
-1000%.
+1,000%.
 
 Thanks,
 
