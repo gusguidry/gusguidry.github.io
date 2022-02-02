@@ -1,9 +1,9 @@
 # gusguidry.com
 Hello,
 
-Eventually replacing my Wordpress hosted site with something simpler. Over the years I've grown to appreciate non-bloaty websites like lukesmith.xyz, Ken Rockwell, or XKCD. Plain HTML and CSS will suit me just fine.
+Eventually replacing my Wordpress based site with something more simple.
 
-I don't think I'll become a software engineer/ developer, but I believe it's handy to understand basic web development.
+It's essential to understand basic web development in the 21st century. This repository is practicing building something from scratch.
 
 Is this a waste of time? 
 
