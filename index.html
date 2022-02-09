@@ -1,7 +1,25 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+
+<div class="container border rounded text-center my-5 p-3">
+  <h5>Links</h5>
+  <p>Email is the best way to contact me. I seldom check DMs from these platforms.</p>
+  <a class=" btn btn-light m-1" href="mailto:me@gusguidry.com" role="button"><img src="icons/envelope.svg"
+      alt="Email" /> Email</a>
+  <a class="btn btn-light m-1" href="https://facebook.com/gusguidrycom" role="button"><img src="icons/facebook.svg"
+      alt="Email" /> Facebook</a>
+  <a class="btn btn-light m-1" href="https://github.com/gusguidry" role="button"><img src="icons/github.svg"
+      alt="Email" /> Github</a>
+  <a class="btn btn-light m-1" href="https://instagram.com/gusguidry" role="button"><img src="icons/instagram.svg"
+      alt="Email" /> Instagram</a>
+  <a class="btn btn-light m-1" href="https://linkedin.com/in/gusguidry" role="button"><img src="icons/linkedin.svg"
+      alt="Email" /> LinkedIn</a>
+  <a class="btn btn-light m-1" href="https://twitter.com/gusguidry" role="button"><img src="icons/twitter.svg"
+      alt="Email" /> Twitter</a>
+  <a class="btn btn-light m-1" href="https://youtube.com/c/gusguidry" role="button"><img src="icons/youtube.svg"
+      alt="Email" /> YouTube</a>
+</div>
 
 <div class="container">
 
@@ -9,16 +27,16 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
