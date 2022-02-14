@@ -16,10 +16,10 @@ layout: default
   <h4>Posts</h4>
   <ul>
     {% for post in site.posts %}
-    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
     <h5>
       <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h5>
+    {{ post.date | date: "%b %-d, %Y" }}
     {% endfor %}
   </ul>
   Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
