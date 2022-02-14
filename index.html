@@ -5,21 +5,21 @@ layout: default
 {% include links.html %}
 <div class="container border rounded text-center my-5 p-3 shadow">
   <h4>Latest Vid</h4>
-  Felt cute, might delete later.
   <div class="ratio ratio-16x9 p-6">
     <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
   </div>
 </div>
 
-
 <div class="container border rounded text-center my-5 p-3 shadow">
   <h4>Posts</h4>
   <ul class="text-center">
-    {% for post in site.posts %}
-    <b>
-      <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </b> {{ post.date | date: "%b %-d, %Y" }}
-    {% endfor %}
+    <li>
+      {% for post in site.posts %}
+      <b>
+        <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </b> {{ post.date | date: "%b %-d, %Y" }}
+      {% endfor %}
+    </li>
   </ul>
   Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
 </div>
