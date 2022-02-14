@@ -14,7 +14,7 @@ layout: default
 
 <div class="container border rounded text-center my-5 p-3 shadow">
   <h4>Posts</h4>
-  <ul>
+  <ul class="text-center">
     {% for post in site.posts %}
     <h5>
       <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
