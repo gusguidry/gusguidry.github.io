@@ -4,10 +4,10 @@ layout: default
 {% include head.html %}
 <div class="container">
   <div class="row justify-content-between">
-    <div class="col-sm">
+    <div class="col-">
       {% include links.html %}
     </div>
-    <div class="col-xl border rounded">
+    <div class="col-xl-auto border rounded">
       <header>
         <h4>{{ page.title }}</h4>
         <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} •
