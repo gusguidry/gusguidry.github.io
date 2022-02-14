@@ -18,8 +18,8 @@ layout: default
       <b>
         <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </b> {{ post.date | date: "%b %-d, %Y" }}
-      {% endfor %}
     </li>
+    {% endfor %}
   </ul>
   Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
 </div>
