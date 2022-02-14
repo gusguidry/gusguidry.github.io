@@ -14,12 +14,12 @@ layout: default
 
 <div class="container border rounded text-center my-5 p-3 shadow">
   <h4>Posts</h4>
-  <p class="text-center">
+  <ul class="text-center">
     {% for post in site.posts %}
     <b>
       <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </b> {{ post.date | date: "%b %-d, %Y" }}
+    <b> {{ post.date | date: "%b %-d, %Y" }}
     {% endfor %}
-  </p>
+  </ul>
   Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
 </div>
