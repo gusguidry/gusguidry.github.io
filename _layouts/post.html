@@ -6,19 +6,19 @@ layout: default
   <div class="row">
     <div class="col">
       {% include links.html %}
-      <div class="col-auto border rounded">
-        <header>
-          <h4 class="text-center">{{ page.title }}</h4>
-          <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} •
-            {{
-            page.meta }}{% endif %}</p>
-        </header>
-        <article>
-          {{ content }}
-        </article>
-        <div class="col">
-        </div>
-      </div>
+    </div>
+    <div class="col-sm border rounded">
+      <header>
+        <h4 class="text-center">{{ page.title }}</h4>
+        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} •
+          {{
+          page.meta }}{% endif %}</p>
+      </header>
+      <article>
+        {{ content }}
+      </article>
+    </div>
+    <div class="col">
     </div>
   </div>
 </div>
