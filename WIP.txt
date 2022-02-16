@@ -1,5 +1,46 @@
+<a class="btn btn-light m-1" href="index.html" role="button">Home 🏡</a>
+<a class="btn btn-light m-1" href="index.html" role="button">Blog 📜</a>
+<a class="btn btn-light m-1" href="index.html" role="button">Social 👥</a>
+
+
 <div class="container border rounded text-center my-5 p-3 shadow">
-  <h4>Links</h4>
-  <a class="btn btn-light m-1" href="index.html" role="button">Home 🏡</a>
-  <a class="btn btn-light m-1" href="index.html" role="button">Blog 📜</a>
-  <a class="btn btn-light m-1" href="index.html" role="button">Social 👥</a>
+  <h4>Social</h4>
+  Email is the best way to contact me. I seldom check DMs.
+  <br />
+  <a class="btn btn-light m-1" href="mailto:me@gusguidry.com" role="button"
+    >Email <img src="icons/envelope.svg" alt="Email"
+  /></a>
+  <a
+    class="btn btn-light m-1"
+    href="https://facebook.com/gusguidrycom"
+    role="button"
+    >Facebook <img src="icons/facebook.svg" alt="Email"
+  /></a>
+  <a class="btn btn-light m-1" href="https://github.com/gusguidry" role="button"
+    >Github <img src="icons/github.svg" alt="Email"
+  /></a>
+  <a
+    class="btn btn-light m-1"
+    href="https://instagram.com/gusguidry"
+    role="button"
+    >Instagram <img src="icons/instagram.svg" alt="Email"
+  /></a>
+  <a
+    class="btn btn-light m-1"
+    href="https://linkedin.com/in/gusguidry"
+    role="button"
+    >LinkedIn <img src="icons/linkedin.svg" alt="Email"
+  /></a>
+  <a
+    class="btn btn-light m-1"
+    href="https://twitter.com/gusguidry"
+    role="button"
+    >Twitter <img src="icons/twitter.svg" alt="Email"
+  /></a>
+  <a
+    class="btn btn-light m-1"
+    href="https://youtube.com/c/gusguidry"
+    role="button"
+    >Youtube <img src="icons/youtube.svg" alt="Email"
+  /></a>
+</div>
