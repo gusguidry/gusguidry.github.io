@@ -9,4 +9,4 @@ url: "http://gusguidry.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
