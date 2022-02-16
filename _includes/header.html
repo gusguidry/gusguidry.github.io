@@ -1,10 +1,25 @@
 <header>
-  <h1 class=" container text-center"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <h1 class="container text-center">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
   <nav>
     <div class="container border rounded text-center my-5 p-3 shadow">
       {% for page in site.pages %} {% if page.title %}
-      <a class="btn btn-light m-1" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      <a class="btn btn-light m-1" href="{{ page.url | prepend: site.baseurl }}"
+        >{{ page.title }}</a
+      >
       {% endif %} {% endfor %}
     </div>
   </nav>
+
+  <div class="container border rounded text-center my-5 p-3 shadow">
+    <h4>Latest Vid</h4>
+    <div class="ratio ratio-16x9 p-6">
+      <iframe
+        src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+        title="YouTube video"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
 </header>
