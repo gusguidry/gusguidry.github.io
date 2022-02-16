@@ -1,7 +1,7 @@
 ---
 layout: page
-title: test2
-permalink: /test2/
+title: Test Page 1
+permalink: /testpage1/
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
