@@ -3,7 +3,6 @@
 <a class="btn btn-light m-1" href="index.html" role="button">Social 👥</a>
 
 
-
 <div class="container border rounded text-center my-5 p-3 shadow">
   <h4>Social</h4>
   Email is the best way to contact me. I seldom check DMs.

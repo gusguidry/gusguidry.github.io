@@ -3,7 +3,7 @@
     <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </h1>
   <nav>
-    <div class="container border rounded text-center my-5 p-3 shadow">
+    <div class="container border border-5 border-dark rounded text-center my-5 p-3">
       {% for page in site.pages %} {% if page.title %}
       <a class="btn btn-light m-1" href="{{ page.url | prepend: site.baseurl }}"
         >{{ page.title }}</a
