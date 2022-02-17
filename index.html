@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="container text-center">
-  <h1>Posts 📝</h1>
+  <h1>Latest Posts 📝</h1>
   <ul class="text-center list-unstyled">
     <li>
-      {% for post in site.posts %}
+      {% for post in site.posts limit:5 %}
       <b>
         <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </b> {{ post.date | date: "%b %-d, %Y" }}
