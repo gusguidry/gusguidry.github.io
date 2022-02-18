@@ -8,7 +8,7 @@ layout: default
     <li>
       {% for post in site.posts limit:5 %}
       <b>
-        <a class="container" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </b> {{ post.date | date: "%b %-d, %Y" }}
     </li>
     {% endfor %}
