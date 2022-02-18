@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+<h4>Latest Posts 📝</h4>
+<ul>
+  <li>
+      {% for post in site.posts limit:5 %}
+      <b>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </b> {{ post.date | date: "%b %-d, %Y" }}
+  </li>
+  {% endfor %}
+</ul>
+Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
+
 <p>Welcome to my webpage! I keep it simple and ugly to scare away the normies. Plus I love the way plain HTML looks. Reminds me of the 90s.</p>
 
 <p>I write about:</p>
@@ -19,14 +31,3 @@ layout: default
 
 <p>-GG</p>
 
-<h4>Latest Posts 📝</h4>
-<ul>
-  <li>
-      {% for post in site.posts limit:5 %}
-      <b>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </b> {{ post.date | date: "%b %-d, %Y" }}
-  </li>
-  {% endfor %}
-</ul>
-Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
