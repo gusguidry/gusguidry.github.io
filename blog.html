@@ -11,6 +11,7 @@ permalink: /blog/
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </b> {{ post.date | date: "%b %-d, %Y" }}
     </li>
+    <li>{% endfor %}</li>
 </ul>
-{% endfor %}
+
 Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>
