@@ -5,11 +5,10 @@ layout: default
 <ul>
   <li>
       {% for post in site.posts limit:5 %}
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}"><strong>{{ post.title }}</strong></a>
       {{ post.date | date: "%b %-d, %Y" }}
     </li>
-    {% endfor %}
-    <li>... click the "blog" tab for more!</li>
+    <li>{% endfor %}</li>
 </ul>
 <p>Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
