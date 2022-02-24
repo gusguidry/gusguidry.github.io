@@ -17,13 +17,12 @@ layout: default
 <p>Welcome to my webpage! I keep it ugly to scare away the normies. Plus, I love the way plain HTML looks. Reminds me of the 90s.</p>
 
 <p>I write about:</p>
+
 <ul>
-  <li>Art</li>
-  <li>Business</li>
-  <li>Literature</li>
-  <li>Outdoors</li>
-  <li>Photography</li>
-  <li>Technology</li>
+    {% for category in site.categories %}
+      <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
+    {% endfor %}
+  <li>... and much more!</li>
 </ul>
 
 <p>Use any of the links above to navigate the site.</p>
