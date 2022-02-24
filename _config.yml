@@ -1,9 +1,9 @@
 title: Gus Guidry
 email: me@gusguidry.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  @gusguidry everywhere. Hello, my name is Gus Guidry. I blog in my spare time.
+  Come visit! If you like what you see, subscribe to my RSS or follow me on any of my social links.
+  Thank you very much!
 url: "http://gusguidry.github.io"
 
 # Build settings
@@ -11,6 +11,7 @@ markdown: kramdown
 permalink: /:year/:title:output_ext
 
 # Conversion
+
 highlighter: rouge
 
 # Markdown Processors
