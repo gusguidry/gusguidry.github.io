@@ -1,0 +1,16 @@
+---
+layout: page
+title: About 👨‍💼
+permalink: /about/
+---
+<p>Hello, my name is August Guidry, but everyone calls me Gus for short.</p>
+<p>I am a graduate of Loyola University New Orleans Business School with a degree in Management and Operations.</p>
+
+<p>I love:</p>
+<ul>
+    {% for category in site.categories %}
+      <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
+    {% endfor %}
+  <li>... and much more!</li>
+</ul>
+</p>
