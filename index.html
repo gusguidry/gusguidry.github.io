@@ -3,14 +3,14 @@ layout: default
 ---
 <h3>Welcome</h3>
 <p>Welcome to the website of me, August Guidry.</p>
-  
+
 <p>I am a management professional, specializing in human and orginizational performance in addition to organizational psychology. Proud graduate of Loyola University New Orleans's business school.</p>
 
 <p>I am employed as a national development coach/ corporate trainer for the Southern Tire Mart at Pilot Flying J venture.</p>
 
 <p>I love to read, teach, and write about anything related to management and general biz.</p>
 
-<p>I also write about:</p>
+<p>I write about:</p>
 
 <ul>
     {% for category in site.categories %}
@@ -28,10 +28,11 @@ layout: default
 <p>-GG</p>
 
 <h3>Latest Posts</h3>
-
-      {% for post in site.posts limit:5 %}
-      <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
-      <a href="{{ post.url | prepend: site.baseurl }}" style="color: inherit;">{{post.excerpt}}<i>Continue reading...</i></a>
+  
+{% for post in site.posts limit:5 %}
+  <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
+  <a href="{{ post.url | prepend: site.baseurl }}" style="color: inherit;">{{post.excerpt}}
+  <i>Continue reading</i></a>
   {% endfor %}
 
 <p>Consider subscribing <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>?</p>
