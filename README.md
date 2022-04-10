@@ -1,9 +1,9 @@
 # gusguidry.com
 Hello,
 
-Eventually replacing my Wordpress based site with something more simple.
+I am replacing my Wordpress site with something simpler.
 
-It's essential to understand basic web development in the 21st century. This repository is practicing building something from scratch.
+It's essential to understand basic web development in the 21st century. This repository is me building something from scratch.
 
 Is this a waste of time? 
 
@@ -15,4 +15,4 @@ Will I get a $200,000 salary + benefits job with this project?
 
 Thanks,
 
-GG
+-GG
