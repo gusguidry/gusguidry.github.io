@@ -1,47 +1,15 @@
 ---
 layout: default
 ---
-<h3>Welcome</h3>
-<p>Welcome to the website of me, August Guidry.</p>
-
-<p>I am a management professional, specializing in human and orginizational performance in addition to organizational psychology. Proud graduate of Loyola University New Orleans's business school. Geaux Wolfpack.</p>
-
-<p>I am employed as a national development coach/ corporate trainer for the Southern Tire Mart at Pilot Flying J venture.</p>
-
-<p>I love to read, teach, and write about anything related to management and general biz.</p>
-
-<p>I write about:</p>
-
-<ul>
-    {% for category in site.categories %}
-      <li>
-        <a href="{{category.url}}"><strong>{{category|first}}</strong></a>
-      </li>
-    {% endfor %}
-  <li>... and much more.</li>
-</ul>
-
-<p>Use any of the links above to navigate the site.</p>
-
-<p>Thank you very much.</p>
-
-<p>-GG</p>
-
-<h3>Latest Video</h3>
-<i style="text-align: center;">Coming soon. Subscribe for updates:</i><script src="https://apis.google.com/js/platform.js"></script>
-
-<div class="g-ytsubscribe" style="margin: auto;" data-channelid="UC3fDz8ptNK3bw4rHkGhjuZQ" data-layout="default" data-theme="dark" data-count="default"></div>
-
 <h3>Latest Posts</h3>
   
 {% for post in site.posts limit:5 %}
-  <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
-  <a href="{{ post.url | prepend: site.baseurl }}" style="color: inherit;">{{post.excerpt}}
-  <i>Continue reading</i></a>
-  {% endfor %}
+  <h4><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
+  <p><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt | truncatewords:45 }} Read more⟶</a>
+  {% endfor %}</p>
 
 <p>Consider subscribing <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>?</p>
 
 <p><img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon"></p>
   
-<p style="text-align: center;"><i>Me</i>, art by: Wren Wren | <a href="https://instagram.com/flashofmemory" target="_blank">@flashofmemory</p>
+<p style="text-align: center;">Favicon and banner by: Wren Wren | <a href="https://instagram.com/flashofmemory" target="_blank">@flashofmemory</p>

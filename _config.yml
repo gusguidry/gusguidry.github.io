@@ -6,6 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Thank you very much!
 url: "http://gusguidry.github.io"
 
+excerpt_separator: <!--more-->
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
