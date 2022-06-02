@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<h3>Latest Posts</h3>
+<h3>Featured Post</h3>
   
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:1 %}
   <h4><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
-  <p><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt | truncatewords:45 }} Read more⟶</a>
+  <p style="text-align: center">{{ post.date | date: "%b %-d, %Y" }}</p>
+  <p><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt | truncatewords:45 }} </a><a href="{{ post.url | prepend: site.baseurl }}">Read more⟶</a>
   {% endfor %}</p>
 
-<p>Consider subscribing <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>?</p>
+<p style="text-align: center;">Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/icons/rss.svg" alt="Favicon"></a></p>
 
 <p><img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon"></p>
   

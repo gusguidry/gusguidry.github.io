@@ -9,7 +9,5 @@ permalink: /archive/
         <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
         {{ post.date | date: "%b %-d, %Y" }}
     </li>
-    <li>{% endfor %}</li>
+    <li>{% endfor %} Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/icons/rss.svg" alt="Favicon"></a></li>
 </ul>
-
-<p>Consider subscribing <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a>?</p>
