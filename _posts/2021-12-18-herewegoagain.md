@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Here We Go Again"
-date:   2021-12-18 12:00:00
+date:   2021-12-18 00:00:00
 categories: General
 ---
 ![Image alt]({{ site.baseurl }}/assets/images/D4JZ4iDUIAAnWlA.jpg){:class="img"}

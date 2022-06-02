@@ -1,16 +1,26 @@
 ---
 layout: default
 ---
-<h3>Featured Post</h3>
-  
 {% for post in site.posts limit:1 %}
-  <h4><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h4></a>
+  <h3><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3></a>
   <p style="text-align: center">{{ post.date | date: "%b %-d, %Y" }}</p>
   <p><a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt | truncatewords:45 }} </a><a href="{{ post.url | prepend: site.baseurl }}">Read more⟶</a>
-  {% endfor %}</p>
+{% endfor %}</p>
+
+<h3>Lastest Posts</h3>
+
+<ul>
+  <li>
+      {% for post in site.posts limit:5 %}
+      <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+      {{ post.date | date: "%b %-d, %Y" }}
+  </li>
+  <li>{% endfor %} Thirsty for more? Please visit the <a href="{{ site.baseurl }}{% link archive.html %}">archive for more content⟶</a></li>
+</ul>
 
 <p style="text-align: center;">Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/icons/rss.svg" alt="Favicon"></a></p>
 
-<p><img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon"></p>
-  
-<p style="text-align: center;">Favicon and banner by: Wren Wren | <a href="https://instagram.com/flashofmemory" target="_blank">@flashofmemory</p>
+<h3>Thank You for Visiting</h3>
+<img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon">
+
+<p style="text-align: center;">Favicon and banner by Wren Wren | <a href="https://instagram.com/flashofmemory" target="_blank">@flashofmemory</p>

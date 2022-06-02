@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Goodbye Facebook"
-date:   2022-03-06 12:00:00
+date:   2022-03-06 00:00:00
 categories: Advice
 ---
 ![Image alt]({{ site.baseurl }}/assets/images/obgf8ygh4buy-1024x1024.png){:class="img"}
