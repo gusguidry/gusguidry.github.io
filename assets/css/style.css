@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: "Garamond";
-  src: url("../assets/fonts/garamond.tff");
-}
-
-:root {
+:root, li, ul {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   font-weight: lighter;
+  letter-spacing: 0.10rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem ;
+  margin-top: 1rem ;
+  word-spacing: 0.15rem;
 }
 
 code {
@@ -27,6 +28,21 @@ code {
 }
 
 /*HTML Defaults*/
+a:link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-size: var(--bs-body-font-size);
+  -webkit-text-size-adjust: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -42,28 +58,12 @@ h1 {
   font-variant: small-caps;
 }
 
-body {
-  margin: 0;
-  font-size: var(--bs-body-font-size);
-  -webkit-text-size-adjust: 100%;
-}
-
 nav {
   text-align: center;
 }
 
 p {
   width: clamp(0ch, 100%, 60ch);
-  font-size: 1rem;
-}
-
-a:link {
-  color: inherit;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .img {

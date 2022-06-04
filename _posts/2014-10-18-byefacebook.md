@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goodbye Facebook"
+title: "Bye Facebook"
 date:   2022-03-06 00:00:00
 categories: Advice
 ---
@@ -10,7 +10,7 @@ Facebook has been a growing garbage pile in my eyes for many years. It used to f
 
 Those days have passed. 
 
-Last week I took a look at what value it brought me. It wasn’t much besides:
+Last week I took a look at what value it brought me. I came to the conclusion that it wasn’t much. The only thing I see in the main feed are now:
 * Political topics
 * Paragraphs of sad family issues/ drama you shouldn’t be posting on the internet
 * Unfunny memes

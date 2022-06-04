@@ -8,4 +8,4 @@ August "Gus" A. Guidry is a management professional, specializing in human and o
 Guidry is employed as a national development manager and corporate trainer for Southern Tire Mart and Southern Tire Mart at Pilot Flying J.
 
 #### About this Site
-This website was constructed using a Ruby-based framework called Jekyll.
+This website was constructed using Jekyll.
