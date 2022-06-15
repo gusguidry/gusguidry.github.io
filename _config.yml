@@ -11,13 +11,3 @@ excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
-
-# Conversion
-
-highlighter: rouge
-
-# Markdown Processors
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
