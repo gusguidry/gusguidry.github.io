@@ -3,11 +3,13 @@ layout: page
 title: Archive
 permalink: /archive/
 ---
+<p>Consider subscribing <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/images/rss.svg" alt="Favicon"></a> to receive the latest updates. Are you unsure of what RSS is?</p>
+
 <ul>
     <li>
         {% for post in site.posts %}
         <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
         {{ post.date | date: "%b %-d, %Y" }}
     </li>
-    <li>{% endfor %} Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/icons/rss.svg" alt="Favicon"></a></li>
+    <li>{% endfor %} Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img src="{{ site.baseurl }}/assets/images/rss.svg" alt="Favicon"></a></li>
 </ul>

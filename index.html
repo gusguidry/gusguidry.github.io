@@ -9,19 +9,19 @@ layout: default
 <div class="g-ytsubscribe" data-channelid="UC3fDz8ptNK3bw4rHkGhjuZQ" data-layout="default" data-count="hidden"></div>
 
 <h3>
-    <a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
-      {{ post.title }}
-    </a>
-  </h3>
-  <div style="text-align: center">
-    {{ post.date | date: "%b %-d, %Y" }}
-  </div>
+  <a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
+    {{ post.title }}
+  </a>
+</h3>
+<div style="text-align: center">
+  {{ post.date | date: "%b %-d, %Y" }}
+</div>
 <div>
   <a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
-  {{ post.excerpt | truncatewords:60 }}
+    {{ post.excerpt | truncatewords:60 }}
   </a>
   <a href="{{ post.url | prepend: site.baseurl }}">
-  Read more⟶
+    Read more⟶
   </a>
   {% endfor %}
 </div>
@@ -31,19 +31,20 @@ layout: default
 <h3>Lastest Posts</h3>
 <ul>
   <li>
-      {% for post in site.posts limit:5 %}
-      <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
-      {{ post.date | date: "%b %-d, %Y" }}
+    {% for post in site.posts limit:5 %}
+    <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+    {{ post.date | date: "%b %-d, %Y" }}
   </li>
   <li>{% endfor %} Thirsty for more? <a href="{{ site.baseurl }}{% link archive.html %}">Visit the archive⟶</a></li>
 </ul>
 
 <div style="text-align: center;">Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img
-  src="{{ site.baseurl }}/assets/icons/rss.svg" alt="Favicon"></a></div>
+      src="{{ site.baseurl }}/assets/images/rss.svg" alt="Favicon"></a></div>
 <div>
 
-<br>
+  <br>
 
-<h3>Thank You for Visiting</h3>
-<img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon">
-<div style="text-align: center;">Favicon and banner by Wren Wren | <a href="https://instagram.com/flashofmemory" target="_blank">@flashofmemory</div>
+  <h3>Thank You for Visiting</h3>
+  <img class="img" src="{{ site.baseurl }}/assets/images/favicon.jpg" alt="Favicon">
+  <div style="text-align: center;">Favicon and banner by Wren Wren | <a href="https://instagram.com/flashofmemory"
+      target="_blank">@flashofmemory</div>

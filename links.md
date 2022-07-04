@@ -14,7 +14,7 @@ Just because I have them does not mean I use them (you should follow them anyway
 * [YouTube](https://www.youtube.com/channel/UC3fDz8ptNK3bw4rHkGhjuZQ)
 
 #### Tools I Use
-* [American Express Gold (Referal Link)](http://refer.amex.us/AUGUSGCJFB?xl=cp01&mpt=v0)
+* [American Express Gold (referral link)](http://refer.amex.us/AUGUSGCJFB?xl=cp01&mpt=v0)
 * [Blender](https://blender.org/)
 * [Gimp](https://www.gimp.org/)
 * [Git](https://git-scm.com/)
@@ -32,4 +32,5 @@ Just because I have them does not mean I use them (you should follow them anyway
 * [Luke Smith](https://lukesmith.xyz/)
 * [Million Dollar Extreme](https://mde.tv/)
 * [MotherFuckingWebsite](https://motherfuckingwebsite.com/)
+* [Richard Stallman](https://stallman.org/)
 * [TempleOS](https://templeos.org/)
