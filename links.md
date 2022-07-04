@@ -21,6 +21,7 @@ Just because I have them does not mean I use them (you should follow them anyway
 * [Godot Engine](https://godotengine.org/)
 * [Hemmingway Editor](https://hemingwayapp.com/)
 * [Jekyll](http://jekyllrb.com/)
+* [Suckless](https://suckless.org/)
 * [Vim](https://vim.org/)
 
 #### Favorites
@@ -31,5 +32,4 @@ Just because I have them does not mean I use them (you should follow them anyway
 * [Luke Smith](https://lukesmith.xyz/)
 * [Million Dollar Extreme](https://mde.tv/)
 * [MotherFuckingWebsite](https://motherfuckingwebsite.com/)
-* [Suckless](https://suckless.org/)
 * [TempleOS](https://templeos.org/)

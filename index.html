@@ -3,6 +3,11 @@ layout: default
 ---
 {% for post in site.posts limit:1 %}
 
+<h3>Latest Video</h3>
+<img class="img" src="{{ site.baseurl }}/assets/images/MOSHED-2022-7-3-22-2-40.gif" alt="Titlecard">
+<script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UC3fDz8ptNK3bw4rHkGhjuZQ" data-layout="default" data-count="hidden"></div>
+
 <h3>
     <a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
       {{ post.title }}
