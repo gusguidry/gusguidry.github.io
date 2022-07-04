@@ -74,7 +74,6 @@ p {
 
 /*Container system*/
 .container {
-  box-shadow: 4px 4px 8px black;
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
