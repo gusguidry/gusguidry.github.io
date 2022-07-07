@@ -11,13 +11,15 @@ layout: default
   </header>
   <article>{{ content }}</article>
 </div>
-<div style="text-align: center;">Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS <img
-      src="{{ site.baseurl }}/assets/images/rss.svg" alt="Favicon"></a></div>
-<div>
+
+<div style="text-align: center;"><a href="{{ " /feed.xml" | prepend: site.baseurl }}">Subscribe via RSS <img
+      src="{{ site.baseurl }}/assets/images/rss.svg" alt="Favicon"></a>
   {% if page.previous.url %}
-  <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+</div>
+<div style="text-align: center;">
+  <a href="{{page.previous.url}}">&laquo; Prev</a>
   {% endif %}
   {% if page.next.url %}
-  <a style="text-align: right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  <a href="{{page.next.url}}">Next &raquo;</a>
   {% endif %}
 </div>

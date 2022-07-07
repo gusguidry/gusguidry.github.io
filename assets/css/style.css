@@ -72,6 +72,11 @@ p {
   width: clamp(0ch, 100%, 60ch);
 }
 
+.post {
+  box-shadow: 1rem 2rem black;
+}
+
+
 /*Container system*/
 .container {
   margin-bottom: 1rem;
