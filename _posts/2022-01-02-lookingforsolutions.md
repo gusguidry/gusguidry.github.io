@@ -18,8 +18,4 @@ Or I can just wise up and configure WooCommerce.
 
 Email me@gusguidry.com if you have any advice.
 
-Kisses.
-
--GG
-
-P.S. Happy new year everyone. Watch less TV and pay less attention to the news. You'll be happier.
+Happy new year everyone. Watch less TV and pay less attention to the news. You will be happier.
