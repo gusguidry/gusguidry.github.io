@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 
-Guidry's Links from the Underground. Some of these links are cool, some are offensive, some are eye opening. The web is meant to be explored.
+"Guidry's Links from the Underground". Some of these links are cool, some are offensive, some are eye opening. The web is meant to be explored.
 
 #### Official Public Profiles
 
