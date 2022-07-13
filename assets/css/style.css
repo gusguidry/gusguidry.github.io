@@ -64,21 +64,18 @@ nav {
   text-align: center;
 }
 
-p {
-  width: clamp(0ch, 100%, 60ch);
-}
-
-.img {
-  width: clamp(0ch, 100%, 60ch);
+article, .img {
+  width: clamp(0ch, 100%, 75ch);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .post {
-  box-shadow: 1rem 2rem black;
+  box-shadow: 0.5rem 1rem black;
 }
 
-
 /*Container system*/
-.container {
+article, .container, .img {
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -90,26 +87,26 @@ p {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 60ch;
+    max-width: 75ch;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 60ch;
+    max-width: 75ch;
   }
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 60ch;
+    max-width: 75ch;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 60ch;
+    max-width: 75ch;
   }
 }
 @media (min-width: 1400px) {
   .container {
-    max-width: 60ch;
+    max-width: 75ch;
   }
 }

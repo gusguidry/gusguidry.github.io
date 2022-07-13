@@ -4,6 +4,8 @@ title: Links
 permalink: /links/
 ---
 
+Guidry's Links from the Underground. Some of these links are cool, some are offensive, some are eye opening. The web is meant to be explored.
+
 #### Official Public Profiles
 
 - [Github](https://github.com/gusguidry/)
@@ -27,6 +29,7 @@ permalink: /links/
 #### Favorites
 
 - [Based Cooking](https://based.cooking/)
+- [First Web Page in History](http://info.cern.ch/hypertext/WWW/TheProject.html)
 - [GNU](https://gnu.org/)
 - [Jamie Windsor](https://jamiewindsor.com/)
 - [Ken Rockwell](https://kenrockwell.com/)
