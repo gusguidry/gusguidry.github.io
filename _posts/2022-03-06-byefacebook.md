@@ -27,5 +27,4 @@ I feel happy knowing that source of displeasure is gone from my life.
 My advice if you’re feeling depressed from Facebook:
 
 1. Delete Facebook. There are plenty of other social media platforms where you can get your fix of dopamine. And if anyone asks, “what about extended family that wants to keep up with you?” Give them your website, email, and/or phone number. If they love you, they’ll find a way to keep in touch.
-2. Bookmark gusguidry.com under your favorites and subscribe to my RSS feed to get updates.
-3. Follow @gusguidry on Instagram and Twitter.
+2. Bookmark my webpage and subscribe to my RSS feed to get updates.

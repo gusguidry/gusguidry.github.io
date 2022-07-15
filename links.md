@@ -9,7 +9,6 @@ permalink: /links/
 #### Official Public Profiles
 
 - [Github](https://github.com/gusguidry/)
-- [Instagram](https://instagram.com/gusguidry/)
 - [LinkedIn](https://linkedin.com/in/gusguidry/)
 - [Twitter](https://twitter.com/gusguidry/)
 - [YouTube](https://www.youtube.com/channel/UC3fDz8ptNK3bw4rHkGhjuZQ)
