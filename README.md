@@ -1,3 +1,3 @@
 # gusguidry.com
 
-Gus's website!
+Gus's website
